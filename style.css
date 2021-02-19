@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+
+:root{
+    --box-div-height:40%;
+    --left-card-left :5%;
+    --right-card-right:5%;
+    --card-top:0;
+    --card-width:42%;
+    --card-height:100%;
+    --card-shadow:5px 5px 7px 8px #0003;
+}
+
+h4{
+    font-family: 'Questrial';
+    user-select:none;
+    color:white;
+
+}
+
+.box{
+    position:absolute;
+    /*background:white;*/
+    width:80%;
+    height:500px;
+    top:10%;
+    /*box-shadow:5px 5px 7px 8px  #0003
+    */
+
+}
+
+#upper-box{
+    position:absolute;
+    width:100%;
+    height:var(--box-div-height);
+    top:5%;
+    
+
+}
+
+#lower-box{
+    position:absolute;
+    width:100%;
+    height:var(--box-div-height);
+    bottom:5%;
+
+}
+
+.card-helper{
+    width:20%;
+    height:20%;
+    box-shadow:5px 5px 7px 5px #0003;
+
+}
+
+.left-card{
+    position:absolute;
+    width:var(--card-width);
+    height:var(--card-height);
+    background:white;
+    top:var(--card-top);
+    left:var(--left-card-left);
+    box-shadow:var(--card-shadow);
+    border-radius:12px;
+    
+}
+
+.right-card{
+    position:absolute;
+    width:var(--card-width);
+    height:var(--card-height);
+    background:white;
+    top:var(--card-top);
+    right:var(--right-card-right);
+    box-shadow: var(--card-shadow);
+    border-radius:12px;
+}
+
+.navbar-helper{
+    height:20%;
+    background-color: #4f4f4f;
+
+}
+
+.doc-svg{
+    position:absolute;
+    top:40%;
+    left:5%;
+
+}
+
+
+.info-block{
+    position:absolute;
+    right:3%;
+    top:30%;
+    background-color:mediumaquamarine;
+    width:70%;
+    height:50%;
+    
+}
